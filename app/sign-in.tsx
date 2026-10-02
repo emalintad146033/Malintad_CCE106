@@ -128,9 +128,9 @@ export default function SignInScreen() {
           </Text>
         </Pressable>
 
-        <Text style={styles.note}>
-          Exam starter: login is not implemented yet.
-        </Text>
+          <Text style={styles.note}>
+            Enter your account credentials to continue.
+            </Text>
       </View>
     </ScrollView>
   );
