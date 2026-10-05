@@ -60,7 +60,7 @@ export default function SignInScreen() {
 
       await login(accessToken, userData ?? {});
 
-      router.replace('/(app)');
+      router.replace('/');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Login failed.');
     } finally {
